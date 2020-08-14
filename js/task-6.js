@@ -7,3 +7,13 @@
 
 // let input;
 // let total = 0;
+
+let totalNumber = prompt("Введите любое число");
+
+let total = 0;
+
+if (totalNumber  === null){ totalNumber
+
+}
+
+console.log(messsage);
