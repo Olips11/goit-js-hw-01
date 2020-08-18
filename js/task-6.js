@@ -8,12 +8,24 @@
 // let input;
 // let total = 0;
 
-let totalNumber = prompt("Введите любое число");
+let input;
 
 let total = 0;
 
-if (totalNumber  === null){ totalNumber
+while (imput !== null) {
+    imput = prompt('Ввести число:');
+    if (input === null) {
+        break;
+    } esle if (input === ""){
+        alert('Было введено не число, попробуйте еще раз!');
+        continue;
+    } esle if (isNaN(parseInt(input))) {
+        alert ('Было введено не число, попробуйте еще раз!')
+        continue;
+    }
+
+    total += Number.parseInt(input);
 
 }
 
-console.log(messsage);
+alert('Общая сумма чисел равна:' + total)
