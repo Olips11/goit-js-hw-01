@@ -12,14 +12,14 @@ let input;
 
 let total = 0;
 
-while (imput !== null) {
-    imput = prompt('Ввести число:');
+while (input !== null) {
+    input = prompt('Ввести число:');
     if (input === null) {
         break;
-    } esle if (input === ""){
+    } else if (input === '') {
         alert('Было введено не число, попробуйте еще раз!');
         continue;
-    } esle if (isNaN(parseInt(input))) {
+    } else if (isNaN(parseInt(input))) {
         alert ('Было введено не число, попробуйте еще раз!')
         continue;
     }
